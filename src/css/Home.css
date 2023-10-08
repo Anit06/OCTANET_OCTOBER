@@ -1,0 +1,231 @@
+.video-container video{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.second{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+
+#header{
+    padding: 0 6%;
+}
+
+.logo{
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0px 2px 2px rgba(3, 3, 3, 0.637); 
+ }
+
+ .logo span{
+    font-size: 58px;
+    color:  #ff7e01;
+    font-weight: 600;
+ }
+
+.logo img {
+    width: 15%;
+ }
+
+.nav{
+    font-size: 38px;
+    font-weight: 600;
+    padding: 18px;
+    list-style-type: none;
+    text-shadow: 0px 2px 2px rgba(3, 3, 3, 0.637); 
+ }
+
+#nav1,
+#nav2,
+#nav3{
+    color: #ff7e01;
+    text-decoration: none;
+ }
+
+#nav1:hover,
+#nav2:hover,
+#nav3:hover{
+    color: white;
+    text-shadow: 0px 2px 2px #ff7e01; 
+ }
+
+.Login, .Register{
+    font-size: 23px;
+    font-weight: 400;
+    margin: 14px;
+    border: none;
+    border-radius: 9px 0;
+    color: white;
+    background-color: #ff7e01;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.486), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
+}
+
+.divi{
+    height: 2px;
+    background-color: #ff7e01;
+}
+
+.third{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#content1 h3, #content1 h1,
+#content1 p{
+    text-shadow: 0px 2px 2px #ff7e01; 
+}
+
+#world1{
+    width: 8%;
+}
+
+.Travel img,
+.Travel video {
+   width        : 100%;
+   height       : 350px;
+   border-radius: 50px 5px;
+   border       : 1px solid #ff7e01;
+   object-fit   : cover;
+}
+
+.forth{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search__bar{
+    padding      : 0.1rem 1rem 0.3rem 1rem;
+    border-radius: 10px;
+    box-shadow   : rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: wheat;
+}
+
+#search1,
+#search2,
+#search3{
+    padding: 2px 8px;
+}
+
+#search1,
+#search2{
+    border-right: 2px solid black;
+}
+
+.padd{
+    width: 100%;
+    padding: 0 67px 0 27px;
+}
+ 
+.searchform span {
+    font-size: 1.8rem;
+    color    : #ff7e01;
+}
+ 
+.searchform input {
+    width      : 200px;
+    border     : none;
+    font-size  : 0.9rem;
+    color      :  #0b2727;
+    font-weight: 500;
+}
+ 
+.search__icon {
+    font-size    : 1.6rem;
+    padding      : 0.5rem;
+    background   : #ff7e01;
+    border-radius: 10px 5px 10px 5px;
+    cursor       : pointer;
+}
+
+.RiSearchLine{
+    color: white;
+}
+
+.fifth{
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.servicebox{
+    margin-left: 9px;
+    margin-right: 9px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+
+.serviceimg{    
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#ff7e01;
+    border-radius: 50%;
+}
+
+.serviceimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.servicebox h4{
+ padding-top: 18px;
+ font-size: 18px;
+ font-weight: 500;
+}
+
+.servicebox p{
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.sixth{
+    padding-top: 18px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.counter_box{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.counter_box span{
+    width: 70px;
+    height: 70px;
+    padding: 19px;
+    border: 2px solid #ff7e01;
+    border-radius: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size      : 1.2rem;
+    font-weight    : 600;
+}
+
+.counter_box h6{
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    font-size      : 1rem;
+    font-weight    : 600;
+}
+
+.experience_img{
+    width: 70%;
+    height: 95%;
+}
+
+.experience_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px 55px 2px 55px;
+}
+ 
